@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+body{
+    @apply bg-[#FFFFFF]
+}
+
+
+.stroke-color{
+    @apply border border-[#E5E7EB]
+}
+
+h2{
+    @apply text-[#9CA3AF]
+}
+.text-color{
+    @apply text-[#9CA3AF]
+}
+.list-item{
+    @apply text-[#374151]
+}
+.item-selected {
+    @apply bg-[#FEF2F2] text-[#C0392B] relative
+}
+.item-selected::before {
+    content: "";
+    @apply absolute left-0 top-1/2 -translate-y-1/2 w-1 h-6 bg-[#EF4444] rounded-r-md;
+}
+.item-selected-hover {
+    @apply hover:bg-[#FEF2F2]
+}
+.dark_red_bg {
+    @apply bg-[#2A0D0D]
+}
+
+.red_text{
+    @apply text-[#EF4444]
+}
+.red_text_2 {
+    @apply text-[#E05252]
+}
+
+.green_status{
+    @apply text-[#16A34A]
+}
+.pending_status{
+    @apply text-[#D97706]
+}
+.cancelled_status{
+    @apply text-[#DC2626]
+}
+
